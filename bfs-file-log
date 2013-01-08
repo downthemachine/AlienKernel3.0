@@ -1,0 +1,24 @@
+Files Changed (21)
++347 -0 Documentation/scheduler/sched-BFS.txt
++25 -0 Documentation/sysctl/kernel.txt
++0 -5 arch/powerpc/platforms/cell/spufs/sched.c
++7 -0 drivers/cpufreq/cpufreq.c
++1 -1 fs/proc/base.c
++64 -1 include/linux/init_task.h
++2 -0 include/linux/ioprio.h
++1 -1 include/linux/jiffies.h
++113 -6 include/linux/sched.h
++15 -2 init/Kconfig
++1 -0 init/main.c
++1 -1 kernel/delayacct.c
++1 -1 kernel/exit.c
++2 -0 kernel/kthread.c
++7 -7 kernel/posix-cpu-timers.c
++4 -0 kernel/sched.c
++7278 -0 kernel/sched_bfs.c
++0 -1 kernel/slow-work.c
++29 -2 kernel/sysctl.c
++1 -1 lib/Kconfig.debug
++1 -1 mm/oom_kill.c
+side-by-side diff view file
+
