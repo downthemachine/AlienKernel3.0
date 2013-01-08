@@ -11,8 +11,8 @@ print "\nremoving old boot.img\n";
 system ("rm boot.img");
 system ("rm $dir/zpack/zcwmfiles/boot.img");
 
-print "\nremoving old n860_tst_krnl.zip\n";
-system ("rm $dir/n860_tst_krnl.zip");
+print "\nremoving old dm_dtm_tst_krnl.zip\n";
+system ("rm $dir/dm_dtm_tst_krnl.zip");
 
 print "\ncreating ramdisk from n860 folder\n";
 chdir ("$dir/zpack");
