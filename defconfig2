@@ -1,7 +1,7 @@
 #
 # Automatically generated make config: don't edit
 # Linux kernel version: 2.6.35.7
-# Tue Nov 20 21:03:16 2012
+# Mon Jan  7 21:13:52 2013
 #
 CONFIG_ARM=y
 CONFIG_SYS_SUPPORTS_APM_EMULATION=y
@@ -843,7 +843,7 @@ CONFIG_NET_SCH_HTB=y
 CONFIG_NET_SCH_PRIO=y
 # CONFIG_NET_SCH_MULTIQ is not set
 # CONFIG_NET_SCH_RED is not set
-# CONFIG_NET_SCH_SFB is not set
+CONFIG_NET_SCH_SFB=y
 CONFIG_NET_SCH_SFQ=y
 # CONFIG_NET_SCH_TEQL is not set
 CONFIG_NET_SCH_TBF=y
@@ -1894,6 +1894,9 @@ CONFIG_USB_ARCH_HAS_EHCI=y
 # CONFIG_USB_OTG_WHITELIST is not set
 # CONFIG_USB_OTG_BLACKLIST_HUB is not set
 # CONFIG_USB_MUSB_HDRC is not set
+# CONFIG_USB_MUSB_HOST is not set
+# CONFIG_USB_MUSB_PERIPHERAL is not set
+# CONFIG_USB_MUSB_OTG is not set
 # CONFIG_USB_GADGET_MUSB_HDRC is not set
 
 #
